@@ -11,7 +11,6 @@ El presente proyecto presenta el desarrollo de un chatBot mediante el uso del fr
 
 Para el uso es necesario seguir el siguiente procedimiento. Ingresar a la carpeta donde se encuentra la carpeta "hospital" y mediante el el uso del comand prompt construir un entorno virtual mediante la ejecución de los siguientes comandos
 
-    pip install virtualenv
-    virtualenv env-rasa
-    .\env-rasa\Scripts\activate
-    pip install rasa
+    python -m venv nombre_del_entorno
+    .\nombre_del_entorno\Scripts\activate
+    python -m pip install rasa
