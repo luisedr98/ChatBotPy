@@ -92,13 +92,29 @@ nlu:
 
 - intent: search_provider
   examples: |
-    -I need a [hospital](facility) in [Ambato](location)
-    -I need a [clinical](facility)
-    -Find a [laboratory](facility) for me
+    - I need a [hospital](facility) in [Ambato](location)
+    - I need a [clinical](facility)
+    - Find me a [laboratory](facility)
+    - I want a [hospital](facility)
+    - I want a [hospital](facility) in [Cuenca](location)
+    - Give me a [hospital](facility) in [Ambato](location)
+    - Give me a [hospital](facility)
+    - I need to find a [laboratory](facility)
+    - I need to find a [laboratory](facility) in [Cuenca](location)
 
 - intent: inform
-  example: |
-    -[Ambato](location)
-    -[Quito](location)
-    -[Riobamba](location)
-    -[Ibarra](location)
+  examples: |
+    - [Ambato](location)
+    - [Quito](location)
+    - [Riobamba](location)
+    - [Ibarra](location)
+    - [Latacunga](location)
+    - [Cuenca](location)
+
+- intent: thanks
+  examples: |
+    - Thaks
+    - Thank you
+    - Thank you very mucho
+    - Thank you bot
+    - I appreciate the effort

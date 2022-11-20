@@ -34,6 +34,9 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: search_provider
+    entities:
+    - facility: "hospital"
+    - location: "Ambato"
   - action: action_facility
   - intent: thanks
   - action: utter_thanks
@@ -43,9 +46,11 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: search_provider
-    entities: 
+    entities:
     - facility: "hospital"
-    - location: "Ambato"
-  - action: utter_facility
+  - action: utter_ask_location
+  - intent: inform
+  - action: action_facility
   - intent: thanks
   - action: utter_thanks
+  
